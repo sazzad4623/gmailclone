@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left img {
+  height: 80px;
+  object-fit: contain;
+  margin-left: 5px;
+}
+
+.header__middle {
+  display: flex;
+  justify-content: center;
+  flex: 0.7;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header__middle input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+}
